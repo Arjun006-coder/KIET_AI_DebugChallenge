@@ -1,0 +1,4 @@
+bug2-> lemmatizing is done on alphabetic / words not numbers so changed to isalpha
+bug3-> for one hot need to change to 1 in 0 matrix
+bug 4-> wrong formula of derivative of activation function tanh
+bug 5-> 0.9 threshold is too high value model is mostly not confident for any category with 0.9 threshold so lowered it to about 0.7
